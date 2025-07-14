@@ -1,235 +1,559 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
-        <title>Modern Business - Start Bootstrap Template</title>
-        <!-- Favicon-->
-        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-        <!-- Bootstrap icons-->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
-    </head>
-    <body class="d-flex flex-column">
-        <main class="flex-shrink-0">
-            <!-- Navigation-->
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>P2SCS Implementation Guide</title>
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet" />
+</head>
+<body class="d-flex flex-column h-100">
+<main class="flex-shrink-0">
 
-            
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <section class="py-5">
+        <div class="container px-5 my-5 text-center">
+            <h1 class="fw-bolder">P2SCS Implementation Guide</h1>
+            <p class="lead fw-normal text-muted mb-0">Step-by-step overview to launch your program</p>
+        </div>
+    </section>
+
+    <!-- Sections with alternating light/white backgrounds -->
+    
+<section class="py-5 bg-light">
     <div class="container px-5">
-        <a class="navbar-brand" href="index.html">Pathways to Success in Computer Science</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" 
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+        <h2 class="fw-bolder mb-3 text-center">Establish Institutional Commitment and Goals</h2>
+        <div class="accordion" id="accordion1">
+            
+<div class="accordion-item">
+    <h3 class="accordion-header" id="heading1-1">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapse1-1" aria-expanded="true" aria-controls="collapse1-1">
+            Secure administrative buy-in and funding
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                <li class="nav-item"><a class="nav-link" href="overview.html">Overview</a></li>
+    </h3>
+    <div id="collapse1-1" class="accordion-collapse collapse show" aria-labelledby="heading1-1"
+         data-bs-parent="#accordion1">
+        <div class="accordion-body">Obtain leadership support and allocate funding to launch and sustain the program.</div>
+    </div>
+</div>
 
-                <!-- Dropdown for Interventions -->
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="interventionsDropdown" role="button" 
-                       data-bs-toggle="dropdown" aria-expanded="false">
-                        Interventions
-                    </a>
-                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="interventionsDropdown">
-                        <li><a class="dropdown-item" href="immersion.html">Program Immersion</a></li>
-                        <li><a class="dropdown-item" href="checkins.html">Weekly Check-ins</a></li>
-                        <li><a class="dropdown-item" href="workshops.html">Workshops</a></li>
-                        <li><a class="dropdown-item" href="support.html">Academic Support</a></li>
-                        <li><a class="dropdown-item" href="sitevisits.html">Professional Site Visits</a></li>
-                    </ul>
-                </li>
+<div class="accordion-item">
+    <h3 class="accordion-header" id="heading1-2">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapse1-2" aria-expanded="false" aria-controls="collapse1-2">
+            Define retention goals, target populations, and desired outcomes
+        </button>
+    </h3>
+    <div id="collapse1-2" class="accordion-collapse collapse" aria-labelledby="heading1-2"
+         data-bs-parent="#accordion1">
+        <div class="accordion-body">Identify metrics for success and populations of focus (e.g., URM, first-gen, women in CS).</div>
+    </div>
+</div>
 
-                <li class="nav-item"><a class="nav-link" href="implementation.html">Implementation Guide</a></li>
-                <li class="nav-item"><a class="nav-link" href="faq.html">FAQ</a></li>
-                <li class="nav-item"><a class="nav-link" href="resources.html">Resources</a></li>
-            </ul>
+<div class="accordion-item">
+    <h3 class="accordion-header" id="heading1-3">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapse1-3" aria-expanded="false" aria-controls="collapse1-3">
+            Align program with institutional DEI and student success initiatives
+        </button>
+    </h3>
+    <div id="collapse1-3" class="accordion-collapse collapse" aria-labelledby="heading1-3"
+         data-bs-parent="#accordion1">
+        <div class="accordion-body">Ensure the program complements existing student support, equity, and academic achievement goals.</div>
+    </div>
+</div>
+
         </div>
     </div>
-</nav>
+</section>
 
 
+<section class="py-5 ">
+    <div class="container px-5">
+        <h2 class="fw-bolder mb-3 text-center">Design Program Structure and Timeline</h2>
+        <div class="accordion" id="accordion2">
+            
+<div class="accordion-item">
+    <h3 class="accordion-header" id="heading2-1">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapse2-1" aria-expanded="true" aria-controls="collapse2-1">
+            Outline program duration
+        </button>
+    </h3>
+    <div id="collapse2-1" class="accordion-collapse collapse show" aria-labelledby="heading2-1"
+         data-bs-parent="#accordion2">
+        <div class="accordion-body">Define start and end dates, length of engagement, and seasonal timing.</div>
+    </div>
+</div>
 
-            <!-- Pricing section-->
-            <section class="bg-light py-5">
-                <div class="container px-5 my-5">
-                    <div class="text-center mb-5">
-                        <h1 class="fw-bolder">Pay as you grow</h1>
-                        <p class="lead fw-normal text-muted mb-0">With our no hassle pricing plans</p>
-                    </div>
-                    <div class="row gx-5 justify-content-center">
-                        <!-- Pricing card free-->
-                        <div class="col-lg-6 col-xl-4">
-                            <div class="card mb-5 mb-xl-0">
-                                <div class="card-body p-5">
-                                    <div class="small text-uppercase fw-bold text-muted">Free</div>
-                                    <div class="mb-3">
-                                        <span class="display-4 fw-bold">$0</span>
-                                        <span class="text-muted">/ mo.</span>
-                                    </div>
-                                    <ul class="list-unstyled mb-4">
-                                        <li class="mb-2">
-                                            <i class="bi bi-check text-primary"></i>
-                                            <strong>1 users</strong>
-                                        </li>
-                                        <li class="mb-2">
-                                            <i class="bi bi-check text-primary"></i>
-                                            5GB storage
-                                        </li>
-                                        <li class="mb-2">
-                                            <i class="bi bi-check text-primary"></i>
-                                            Unlimited public projects
-                                        </li>
-                                        <li class="mb-2">
-                                            <i class="bi bi-check text-primary"></i>
-                                            Community access
-                                        </li>
-                                        <li class="mb-2 text-muted">
-                                            <i class="bi bi-x"></i>
-                                            Unlimited private projects
-                                        </li>
-                                        <li class="mb-2 text-muted">
-                                            <i class="bi bi-x"></i>
-                                            Dedicated support
-                                        </li>
-                                        <li class="mb-2 text-muted">
-                                            <i class="bi bi-x"></i>
-                                            Free linked domain
-                                        </li>
-                                        <li class="text-muted">
-                                            <i class="bi bi-x"></i>
-                                            Monthly status reports
-                                        </li>
-                                    </ul>
-                                    <div class="d-grid"><a class="btn btn-outline-primary" href="#!">Choose plan</a></div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Pricing card pro-->
-                        <div class="col-lg-6 col-xl-4">
-                            <div class="card mb-5 mb-xl-0">
-                                <div class="card-body p-5">
-                                    <div class="small text-uppercase fw-bold">
-                                        <i class="bi bi-star-fill text-warning"></i>
-                                        Pro
-                                    </div>
-                                    <div class="mb-3">
-                                        <span class="display-4 fw-bold">$9</span>
-                                        <span class="text-muted">/ mo.</span>
-                                    </div>
-                                    <ul class="list-unstyled mb-4">
-                                        <li class="mb-2">
-                                            <i class="bi bi-check text-primary"></i>
-                                            <strong>5 users</strong>
-                                        </li>
-                                        <li class="mb-2">
-                                            <i class="bi bi-check text-primary"></i>
-                                            5GB storage
-                                        </li>
-                                        <li class="mb-2">
-                                            <i class="bi bi-check text-primary"></i>
-                                            Unlimited public projects
-                                        </li>
-                                        <li class="mb-2">
-                                            <i class="bi bi-check text-primary"></i>
-                                            Community access
-                                        </li>
-                                        <li class="mb-2">
-                                            <i class="bi bi-check text-primary"></i>
-                                            Unlimited private projects
-                                        </li>
-                                        <li class="mb-2">
-                                            <i class="bi bi-check text-primary"></i>
-                                            Dedicated support
-                                        </li>
-                                        <li class="mb-2">
-                                            <i class="bi bi-check text-primary"></i>
-                                            Free linked domain
-                                        </li>
-                                        <li class="text-muted">
-                                            <i class="bi bi-x"></i>
-                                            Monthly status reports
-                                        </li>
-                                    </ul>
-                                    <div class="d-grid"><a class="btn btn-primary" href="#!">Choose plan</a></div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Pricing card enterprise-->
-                        <div class="col-lg-6 col-xl-4">
-                            <div class="card">
-                                <div class="card-body p-5">
-                                    <div class="small text-uppercase fw-bold text-muted">Enterprise</div>
-                                    <div class="mb-3">
-                                        <span class="display-4 fw-bold">$49</span>
-                                        <span class="text-muted">/ mo.</span>
-                                    </div>
-                                    <ul class="list-unstyled mb-4">
-                                        <li class="mb-2">
-                                            <i class="bi bi-check text-primary"></i>
-                                            <strong>Unlimited users</strong>
-                                        </li>
-                                        <li class="mb-2">
-                                            <i class="bi bi-check text-primary"></i>
-                                            5GB storage
-                                        </li>
-                                        <li class="mb-2">
-                                            <i class="bi bi-check text-primary"></i>
-                                            Unlimited public projects
-                                        </li>
-                                        <li class="mb-2">
-                                            <i class="bi bi-check text-primary"></i>
-                                            Community access
-                                        </li>
-                                        <li class="mb-2">
-                                            <i class="bi bi-check text-primary"></i>
-                                            Unlimited private projects
-                                        </li>
-                                        <li class="mb-2">
-                                            <i class="bi bi-check text-primary"></i>
-                                            Dedicated support
-                                        </li>
-                                        <li class="mb-2">
-                                            <i class="bi bi-check text-primary"></i>
-                                            <strong>Unlimited</strong>
-                                            linked domains
-                                        </li>
-                                        <li class="text-muted">
-                                            <i class="bi bi-check text-primary"></i>
-                                            Monthly status reports
-                                        </li>
-                                    </ul>
-                                    <div class="d-grid"><a class="btn btn-outline-primary" href="#!">Choose plan</a></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-        </main>
-        <!-- Footer-->
-        <footer class="bg-dark py-4 mt-auto">
-            <div class="container px-5">
-                <div class="row align-items-center justify-content-between flex-column flex-sm-row">
-                    <div class="col-auto"><div class="small m-0 text-white">Copyright &copy; Your Website 2023</div></div>
-                    <div class="col-auto">
-                        <a class="link-light small" href="#!">Privacy</a>
-                        <span class="text-white mx-1">&middot;</span>
-                        <a class="link-light small" href="#!">Terms</a>
-                        <span class="text-white mx-1">&middot;</span>
-                        <a class="link-light small" href="#!">Contact</a>
-                    </div>
-                </div>
-            </div>
-        </footer>
-        <!-- Bootstrap core JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
-    </body>
+<div class="accordion-item">
+    <h3 class="accordion-header" id="heading2-2">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapse2-2" aria-expanded="false" aria-controls="collapse2-2">
+            Establish milestones and academic integration
+        </button>
+    </h3>
+    <div id="collapse2-2" class="accordion-collapse collapse" aria-labelledby="heading2-2"
+         data-bs-parent="#accordion2">
+        <div class="accordion-body">Coordinate touchpoints with academic calendars and identify major program benchmarks.</div>
+    </div>
+</div>
+
+<div class="accordion-item">
+    <h3 class="accordion-header" id="heading2-3">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapse2-3" aria-expanded="false" aria-controls="collapse2-3">
+            Identify cohorts and eligibility
+        </button>
+    </h3>
+    <div id="collapse2-3" class="accordion-collapse collapse" aria-labelledby="heading2-3"
+         data-bs-parent="#accordion2">
+        <div class="accordion-body">Define how students are selected (e.g., academic risk, interest, demographic qualifiers).</div>
+    </div>
+</div>
+
+        </div>
+    </div>
+</section>
+
+
+<section class="py-5 bg-light">
+    <div class="container px-5">
+        <h2 class="fw-bolder mb-3 text-center">Assemble a Program Team</h2>
+        <div class="accordion" id="accordion3">
+            
+<div class="accordion-item">
+    <h3 class="accordion-header" id="heading3-1">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapse3-1" aria-expanded="true" aria-controls="collapse3-1">
+            Hire or assign a program director/coordinator
+        </button>
+    </h3>
+    <div id="collapse3-1" class="accordion-collapse collapse show" aria-labelledby="heading3-1"
+         data-bs-parent="#accordion3">
+        <div class="accordion-body">Appoint a leader to oversee daily operations, planning, and evaluation.</div>
+    </div>
+</div>
+
+<div class="accordion-item">
+    <h3 class="accordion-header" id="heading3-2">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapse3-2" aria-expanded="false" aria-controls="collapse3-2">
+            Recruit facilitators, mentors, and advisors
+        </button>
+    </h3>
+    <div id="collapse3-2" class="accordion-collapse collapse" aria-labelledby="heading3-2"
+         data-bs-parent="#accordion3">
+        <div class="accordion-body">Engage staff and peers who will deliver program content and support scholars.</div>
+    </div>
+</div>
+
+<div class="accordion-item">
+    <h3 class="accordion-header" id="heading3-3">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapse3-3" aria-expanded="false" aria-controls="collapse3-3">
+            Define roles for faculty, staff, and peer leaders
+        </button>
+    </h3>
+    <div id="collapse3-3" class="accordion-collapse collapse" aria-labelledby="heading3-3"
+         data-bs-parent="#accordion3">
+        <div class="accordion-body">Clarify responsibilities for each team member to ensure smooth delivery and accountability.</div>
+    </div>
+</div>
+
+        </div>
+    </div>
+</section>
+
+
+<section class="py-5 ">
+    <div class="container px-5">
+        <h2 class="fw-bolder mb-3 text-center">Develop Intervention Components</h2>
+        <div class="accordion" id="accordion4">
+            
+<div class="accordion-item">
+    <h3 class="accordion-header" id="heading4-1">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapse4-1" aria-expanded="true" aria-controls="collapse4-1">
+            Program Immersion
+        </button>
+    </h3>
+    <div id="collapse4-1" class="accordion-collapse collapse show" aria-labelledby="heading4-1"
+         data-bs-parent="#accordion4">
+        <div class="accordion-body">Create pre-semester onboarding activities.</div>
+    </div>
+</div>
+
+<div class="accordion-item">
+    <h3 class="accordion-header" id="heading4-2">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapse4-2" aria-expanded="false" aria-controls="collapse4-2">
+            Weekly Check-ins
+        </button>
+    </h3>
+    <div id="collapse4-2" class="accordion-collapse collapse" aria-labelledby="heading4-2"
+         data-bs-parent="#accordion4">
+        <div class="accordion-body">Set up structured reflection and advising sessions.</div>
+    </div>
+</div>
+
+<div class="accordion-item">
+    <h3 class="accordion-header" id="heading4-3">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapse4-3" aria-expanded="false" aria-controls="collapse4-3">
+            Technical Workshops
+        </button>
+    </h3>
+    <div id="collapse4-3" class="accordion-collapse collapse" aria-labelledby="heading4-3"
+         data-bs-parent="#accordion4">
+        <div class="accordion-body">Design supplemental coding or computing sessions.</div>
+    </div>
+</div>
+
+<div class="accordion-item">
+    <h3 class="accordion-header" id="heading4-4">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapse4-4" aria-expanded="false" aria-controls="collapse4-4">
+            Non-Technical Workshops
+        </button>
+    </h3>
+    <div id="collapse4-4" class="accordion-collapse collapse" aria-labelledby="heading4-4"
+         data-bs-parent="#accordion4">
+        <div class="accordion-body">Incorporate growth mindset, time management, and community building.</div>
+    </div>
+</div>
+
+<div class="accordion-item">
+    <h3 class="accordion-header" id="heading4-5">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapse4-5" aria-expanded="false" aria-controls="collapse4-5">
+            Academic Support
+        </button>
+    </h3>
+    <div id="collapse4-5" class="accordion-collapse collapse" aria-labelledby="heading4-5"
+         data-bs-parent="#accordion4">
+        <div class="accordion-body">Coordinate tutoring, study halls, or structured study groups.</div>
+    </div>
+</div>
+
+<div class="accordion-item">
+    <h3 class="accordion-header" id="heading4-6">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapse4-6" aria-expanded="false" aria-controls="collapse4-6">
+            Professional Site Visits
+        </button>
+    </h3>
+    <div id="collapse4-6" class="accordion-collapse collapse" aria-labelledby="heading4-6"
+         data-bs-parent="#accordion4">
+        <div class="accordion-body">Build relationships with industry partners and arrange off-campus exposure.</div>
+    </div>
+</div>
+
+        </div>
+    </div>
+</section>
+
+
+<section class="py-5 bg-light">
+    <div class="container px-5">
+        <h2 class="fw-bolder mb-3 text-center">Select Theoretical Frameworks and Evaluation Metrics</h2>
+        <div class="accordion" id="accordion5">
+            
+<div class="accordion-item">
+    <h3 class="accordion-header" id="heading5-1">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapse5-1" aria-expanded="true" aria-controls="collapse5-1">
+            Ground the program in educational psychology
+        </button>
+    </h3>
+    <div id="collapse5-1" class="accordion-collapse collapse show" aria-labelledby="heading5-1"
+         data-bs-parent="#accordion5">
+        <div class="accordion-body">Use SRL, SCT, EVT, Tinto’s theory, and other frameworks.</div>
+    </div>
+</div>
+
+<div class="accordion-item">
+    <h3 class="accordion-header" id="heading5-2">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapse5-2" aria-expanded="false" aria-controls="collapse5-2">
+            Define success measures
+        </button>
+    </h3>
+    <div id="collapse5-2" class="accordion-collapse collapse" aria-labelledby="heading5-2"
+         data-bs-parent="#accordion5">
+        <div class="accordion-body">Track retention rates, GPA, confidence, and sense of belonging.</div>
+    </div>
+</div>
+
+<div class="accordion-item">
+    <h3 class="accordion-header" id="heading5-3">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapse5-3" aria-expanded="false" aria-controls="collapse5-3">
+            Choose validated instruments
+        </button>
+    </h3>
+    <div id="collapse5-3" class="accordion-collapse collapse" aria-labelledby="heading5-3"
+         data-bs-parent="#accordion5">
+        <div class="accordion-body">Use pre/post assessments and surveys for evidence-based evaluation.</div>
+    </div>
+</div>
+
+        </div>
+    </div>
+</section>
+
+
+<section class="py-5 ">
+    <div class="container px-5">
+        <h2 class="fw-bolder mb-3 text-center">Recruit and Onboard Student Cohorts</h2>
+        <div class="accordion" id="accordion6">
+            
+<div class="accordion-item">
+    <h3 class="accordion-header" id="heading6-1">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapse6-1" aria-expanded="true" aria-controls="collapse6-1">
+            Identify and invite eligible students
+        </button>
+    </h3>
+    <div id="collapse6-1" class="accordion-collapse collapse show" aria-labelledby="heading6-1"
+         data-bs-parent="#accordion6">
+        <div class="accordion-body">Base selection on academic records, interest, or demographics.</div>
+    </div>
+</div>
+
+<div class="accordion-item">
+    <h3 class="accordion-header" id="heading6-2">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapse6-2" aria-expanded="false" aria-controls="collapse6-2">
+            Conduct orientation and baseline data collection
+        </button>
+    </h3>
+    <div id="collapse6-2" class="accordion-collapse collapse" aria-labelledby="heading6-2"
+         data-bs-parent="#accordion6">
+        <div class="accordion-body">Gather pre-program survey data and set expectations.</div>
+    </div>
+</div>
+
+<div class="accordion-item">
+    <h3 class="accordion-header" id="heading6-3">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapse6-3" aria-expanded="false" aria-controls="collapse6-3">
+            Set participation expectations
+        </button>
+    </h3>
+    <div id="collapse6-3" class="accordion-collapse collapse" aria-labelledby="heading6-3"
+         data-bs-parent="#accordion6">
+        <div class="accordion-body">Clarify attendance, engagement, and performance expectations.</div>
+    </div>
+</div>
+
+        </div>
+    </div>
+</section>
+
+
+<section class="py-5 bg-light">
+    <div class="container px-5">
+        <h2 class="fw-bolder mb-3 text-center">Implement the Program</h2>
+        <div class="accordion" id="accordion7">
+            
+<div class="accordion-item">
+    <h3 class="accordion-header" id="heading7-1">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapse7-1" aria-expanded="true" aria-controls="collapse7-1">
+            Execute all components
+        </button>
+    </h3>
+    <div id="collapse7-1" class="accordion-collapse collapse show" aria-labelledby="heading7-1"
+         data-bs-parent="#accordion7">
+        <div class="accordion-body">Deliver interventions as scheduled.</div>
+    </div>
+</div>
+
+<div class="accordion-item">
+    <h3 class="accordion-header" id="heading7-2">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapse7-2" aria-expanded="false" aria-controls="collapse7-2">
+            Monitor student progress
+        </button>
+    </h3>
+    <div id="collapse7-2" class="accordion-collapse collapse" aria-labelledby="heading7-2"
+         data-bs-parent="#accordion7">
+        <div class="accordion-body">Track attendance, engagement, and academic outcomes.</div>
+    </div>
+</div>
+
+<div class="accordion-item">
+    <h3 class="accordion-header" id="heading7-3">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapse7-3" aria-expanded="false" aria-controls="collapse7-3">
+            Provide ongoing mentorship
+        </button>
+    </h3>
+    <div id="collapse7-3" class="accordion-collapse collapse" aria-labelledby="heading7-3"
+         data-bs-parent="#accordion7">
+        <div class="accordion-body">Maintain a strong support network throughout the program.</div>
+    </div>
+</div>
+
+        </div>
+    </div>
+</section>
+
+
+<section class="py-5 ">
+    <div class="container px-5">
+        <h2 class="fw-bolder mb-3 text-center">Collect Data and Evaluate Impact</h2>
+        <div class="accordion" id="accordion8">
+            
+<div class="accordion-item">
+    <h3 class="accordion-header" id="heading8-1">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapse8-1" aria-expanded="true" aria-controls="collapse8-1">
+            Administer post-program surveys and focus groups
+        </button>
+    </h3>
+    <div id="collapse8-1" class="accordion-collapse collapse show" aria-labelledby="heading8-1"
+         data-bs-parent="#accordion8">
+        <div class="accordion-body">Gather qualitative and quantitative feedback.</div>
+    </div>
+</div>
+
+<div class="accordion-item">
+    <h3 class="accordion-header" id="heading8-2">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapse8-2" aria-expanded="false" aria-controls="collapse8-2">
+            Analyze academic and psychosocial changes
+        </button>
+    </h3>
+    <div id="collapse8-2" class="accordion-collapse collapse" aria-labelledby="heading8-2"
+         data-bs-parent="#accordion8">
+        <div class="accordion-body">Assess performance, confidence, and retention.</div>
+    </div>
+</div>
+
+<div class="accordion-item">
+    <h3 class="accordion-header" id="heading8-3">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapse8-3" aria-expanded="false" aria-controls="collapse8-3">
+            Use mixed methods for evaluation
+        </button>
+    </h3>
+    <div id="collapse8-3" class="accordion-collapse collapse" aria-labelledby="heading8-3"
+         data-bs-parent="#accordion8">
+        <div class="accordion-body">Combine data types for richer insight.</div>
+    </div>
+</div>
+
+        </div>
+    </div>
+</section>
+
+
+<section class="py-5 bg-light">
+    <div class="container px-5">
+        <h2 class="fw-bolder mb-3 text-center">Iterate Based on Feedback and Data</h2>
+        <div class="accordion" id="accordion9">
+            
+<div class="accordion-item">
+    <h3 class="accordion-header" id="heading9-1">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapse9-1" aria-expanded="true" aria-controls="collapse9-1">
+            Review stakeholder feedback
+        </button>
+    </h3>
+    <div id="collapse9-1" class="accordion-collapse collapse show" aria-labelledby="heading9-1"
+         data-bs-parent="#accordion9">
+        <div class="accordion-body">Collect input from students, staff, and faculty.</div>
+    </div>
+</div>
+
+<div class="accordion-item">
+    <h3 class="accordion-header" id="heading9-2">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapse9-2" aria-expanded="false" aria-controls="collapse9-2">
+            Apply Design-Based Research cycles
+        </button>
+    </h3>
+    <div id="collapse9-2" class="accordion-collapse collapse" aria-labelledby="heading9-2"
+         data-bs-parent="#accordion9">
+        <div class="accordion-body">Refine program components and delivery.</div>
+    </div>
+</div>
+
+<div class="accordion-item">
+    <h3 class="accordion-header" id="heading9-3">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapse9-3" aria-expanded="false" aria-controls="collapse9-3">
+            Adjust program design
+        </button>
+    </h3>
+    <div id="collapse9-3" class="accordion-collapse collapse" aria-labelledby="heading9-3"
+         data-bs-parent="#accordion9">
+        <div class="accordion-body">Make data-informed decisions for improvement.</div>
+    </div>
+</div>
+
+        </div>
+    </div>
+</section>
+
+
+<section class="py-5 ">
+    <div class="container px-5">
+        <h2 class="fw-bolder mb-3 text-center">Disseminate Findings and Sustain the Program</h2>
+        <div class="accordion" id="accordion10">
+            
+<div class="accordion-item">
+    <h3 class="accordion-header" id="heading10-1">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapse10-1" aria-expanded="true" aria-controls="collapse10-1">
+            Report outcomes internally and externally
+        </button>
+    </h3>
+    <div id="collapse10-1" class="accordion-collapse collapse show" aria-labelledby="heading10-1"
+         data-bs-parent="#accordion10">
+        <div class="accordion-body">Present results in reports, conferences, or grants.</div>
+    </div>
+</div>
+
+<div class="accordion-item">
+    <h3 class="accordion-header" id="heading10-2">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapse10-2" aria-expanded="false" aria-controls="collapse10-2">
+            Build infrastructure for sustainability
+        </button>
+    </h3>
+    <div id="collapse10-2" class="accordion-collapse collapse" aria-labelledby="heading10-2"
+         data-bs-parent="#accordion10">
+        <div class="accordion-body">Secure long-term resources and staffing.</div>
+    </div>
+</div>
+
+<div class="accordion-item">
+    <h3 class="accordion-header" id="heading10-3">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapse10-3" aria-expanded="false" aria-controls="collapse10-3">
+            Offer toolkit for replication
+        </button>
+    </h3>
+    <div id="collapse10-3" class="accordion-collapse collapse" aria-labelledby="heading10-3"
+         data-bs-parent="#accordion10">
+        <div class="accordion-body">Share materials for scaling and adaptation at other institutions.</div>
+    </div>
+</div>
+
+        </div>
+    </div>
+</section>
+
+
+</main>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/scripts.js"></script>
+</body>
 </html>
